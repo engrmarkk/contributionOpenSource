@@ -32,3 +32,9 @@ Steps On How To Contribute
 * Check if all the requests pass and wait for us to merge into main
 
 Thank you for contributing
+
+
+
+#THE LINK TO THE PLATFORM
+
+[contributeOpenSource](https://contribute-open-source.netlify.app/)
