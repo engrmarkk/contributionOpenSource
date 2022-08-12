@@ -35,6 +35,6 @@ Thank you for contributing
 
 
 
-#THE LINK TO THE PLATFORM
+# THE LINK TO THE PLATFORM
 
-[contributeOpenSource](https://contribute-open-source.netlify.app/)
+# [contributeOpenSource](https://contribute-open-source.netlify.app/)
