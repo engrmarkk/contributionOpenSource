@@ -1,0 +1,141 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",  sans-serif;
+}
+
+
+.parent-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+    background: rgba(87, 220, 213, 0.374);
+}
+
+h1
+{
+    text-align: center;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    color: white;
+    background: #0a1e29;
+}
+
+.child-container img{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20rem;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20rem;
+    padding: 0.5rem;
+    border-top: 2px solid rgba(255, 255, 0, 0.237);
+    border-right: 2px solid rgba(255, 255, 0, 0.237);
+    width: 60%;
+    margin: 1rem auto 0 auto;
+
+}
+
+
+.card-container {
+    background: #0a1e29;
+    width: 21rem;
+    height: fit-content;
+    margin: 3rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.516) 0px 4px 12px;
+}
+
+.name{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: .4rem;
+    font-weight: normal;
+}
+
+.track {
+    text-align: center;
+    font-size: .9rem;
+    color: rgb(186, 177, 177);
+}
+
+.about-me{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: .85rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 .4rem;
+
+}
+
+.email {
+    text-align: center;
+    margin-top: 1.5rem;
+    /* font-size: .8rem; */
+    
+}
+
+.email a{
+    color: #0a1e29;
+    text-decoration: none;
+    background: rgb(4, 254, 4);
+    font-size: .8rem;
+    padding: .7rem 0;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .7s;
+}
+
+.email a:hover {
+    background: rgb(136, 255, 0);
+}
+
+
+
+.email a i {
+    margin-right: .5rem;
+}
+
+.social-media-icon{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.social-media-icon i {
+    padding: 0 1.6rem;
+    font-size: 1.3rem;
+}
+
+.social-media-icon a{
+    color: white;
+    position: relative;
+    transition: .7s;
+}
+
+.social-media-icon a:hover{
+    bottom: 10px;
+}
